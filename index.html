@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Hero Resume</title>
+    <style>
+      #IMG {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-left: 90px;
+        margin-top: 10px;
+      }
+      #IMG img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        
+      }
+      #container {
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .div1{
+        flex: 2;
+        max-width: 60%;
+        
+      }
+      .div2{
+        flex: 1;
+        max-width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: lightgray;
+        text-align: center;
+      }
+      .NB{
+        text-align: center;
+        background-color: lightgray;
+        height: 200px;
+        padding-top: 80px;
+        font-size: 1.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 10px;
+        font-weight: 700;
+      }
+      .PF{
+        text-align: center;
+        height: 200px;
+        border: 3px solid gold;
+        margin-top: 10px;
+        border-radius: 10px;
+      }
+      .EX h2,h3,h4{
+        text-align: center;
+        font-size: 1.4rem;
+      }
+      .div1 p{
+        font-size: 1.2rem;
+      }
+      .PF h2{
+           background-color: blanchedalmond;
+           margin-top: 10px;
+           display: inline;
+           padding: 10px;
+      }
+      .div2 div > ul{
+        list-style-type: none;
+      }
+      #TD{
+        text-align: left;
+        margin-left: 55px;
+      }
+
+    </style>
+      
+
+  </head>
+  <body>
+    <div id="container">
+      <div class="div1">
+        <div class="NB">
+          <h1 style="margin: 0; padding: 0;">Navita Bhardwaj</h1>
+          <h3 style="margin: 0; padding: 0;">Web Developer</h3>
+        </div>
+        <div class="PF">
+          <h2>Profile</h2>
+          <p>
+            A result-oriented and self-motivated computer science post graduate,
+            looking for a challenging career where I can implement my coding
+            knowledge so that further enhance my skills. Strong knowledge of
+            HTML, CSS, Java script, DBMS.
+          </p>
+        </div>
+        <div class="EX">
+          <h2>Experience</h2>
+          <h3>SALES EXICUTIVE <span>•</span> ICICI Bank Pvt Ltd</h3>
+          <h4>10/2021-01/2023</h4>
+          <p>
+            Sales Target Achievement: Working towards and exceeding sales
+            targets, regularly monitoring and analyzing sales performance, and
+            taking corrective actions as needed.
+          </p>
+          <p>
+            Providing Guidance and Direction: Providing clear guidance,
+            direction, and support to the sales team members, ensuring they
+            understand their roles, responsibilities, and sales objectives.
+          </p>
+          <h3>SALES TEAM LEADER <span>•</span> ICICI Bank Pvt Ltd</h3>
+          <h4>01/2023-06/2023</h4>
+          <p>
+            Performance Management: Monitoring and evaluating the performance of
+            individual team members against set targets, providing regular
+            feedback, conducting performance reviews, and implementing
+            corrective actions when necessary.
+          </p>
+        </div>
+      </div>
+      <div class="div2">
+        <div id="IMG">
+          <img
+            src="C:\Users\navit\Desktop\photo_2023-06-29_15-56-48.jpg"
+            alt="Profile Picture"  />
+         </div>
+         <div>
+            <h2>CONTACTS</h2>
+            <table id="TD">
+             <tr>
+                <td>🏠</td>
+                <td>Subhash Nagar,Sonipat, 131101</td>
+             </tr>
+             <tr>
+                <td>📞</td>
+                <td>1234567899</td>
+             </tr>
+             <tr>
+                <td>📩</td>
+                <td>navitabhardwaj555@gmail.com</td>
+             </tr>
+             <tr>
+                <td>🔗</td>
+                <td>https://www.linkedin.com/in/navita-bhardwaj-0790ab20b/</td>
+             </tr>
+            </table>
+         </div>
+         <div>
+            <h2>SKILLS & ABILITIES</h2>
+            <ul>
+                <li>Sales & Marketing</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>REACT JS</li>
+                <li>MERN STACK DEVELOPMENT</li>
+            </ul>
+         </div>
+         <div>
+            <h2>EDUCATION</h2>
+            <table>
+                <tr>
+                 <p>MASTER IN Computer Science</p>
+                <p>MDU,Rohtak,Haryana</p>
+                <p>Aug 2021</p>
+
+                </tr>
+                <tr>
+                    <p>BACHELOR IN Computer Science</p>
+                    <p>AMM,Bhiwani,Haryana</p>
+                    <p>July 2019</p>
+                </tr>
+                <tr>
+                    <p>INTERMEDIATE</p>
+                    <p>ESSS,Bhiwani,Haryana</p>
+                    <p>May 2016</p>
+                </tr>
+            </table>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>
